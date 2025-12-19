@@ -1,0 +1,13 @@
+name: This first work flow
+  
+on: push
+
+jobs:
+    test-job:
+        runs-on: ubuntu-latest
+
+        steps:
+            -name: Hello display
+             run: echo "my name is balaram"
+            -name: display date
+             run: date 
